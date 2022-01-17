@@ -1,5 +1,4 @@
 const express = require('express')
-const { auth } = require('express-openid-connect')
 const router = express.Router()
 const Author = require("../models/author")
 
